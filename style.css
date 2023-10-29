@@ -78,12 +78,16 @@ nav{
 }
 /* body */
 .home{
-    color: white;
+       color: white;
     /* background-color: rebeccapurple; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px 0px 20px;
+    background-color: brown;
+    min-height:  100vh ;
+    max-height: fit-content;
+    position: relative;
 }
 .leftHome{
     line-height: 70px;
@@ -144,7 +148,8 @@ nav{
 /* About Seciton */
 .about{
     display: flex;  
-    height: calc(100vh - 70px);
+    min-height:  calc(100vh - 70px);
+    max-height: fit-content;
     background-color: blueviolet;
     cursor: default;
     color: white;
