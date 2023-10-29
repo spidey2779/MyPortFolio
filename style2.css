@@ -33,6 +33,7 @@
     .leftHome{
         justify-content: start;
         line-height: 50px;
+       width:100%;
     }
     .leftHome h1{
         text-align: start;
