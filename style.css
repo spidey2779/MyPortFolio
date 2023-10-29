@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+position: relative;@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
@@ -154,6 +154,7 @@ nav{
     cursor: default;
     color: white;
     font-family: sans-serif;
+    position: relative;
 }
 .leftAbout{
     width: 50%;
