@@ -1,4 +1,4 @@
-position: relative;@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
@@ -26,7 +26,8 @@ body,html{
     width: 100%;
 }
 .main{
- background-color: red;
+ background-color: rgb(42, 41, 41);
+ /* background-color: red; */
     height: 100vh;
     
 }
@@ -78,13 +79,12 @@ nav{
 }
 /* body */
 .home{
-       color: white;
+    color: white;
     /* background-color: rebeccapurple; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px 0px 20px;
-    background-color: brown;
     min-height:  100vh ;
     max-height: fit-content;
     position: relative;
@@ -147,7 +147,7 @@ nav{
 }
 /* About Seciton */
 .about{
-     display: flex;  
+    display: flex;  
     min-height:  calc(100vh - 70px);
     max-height: fit-content;
     background-color: blueviolet;
@@ -249,7 +249,7 @@ nav{
 }
 .contact a{
     
-    text-decoration:none;
+    text-decoration: none;
     margin: 0px 40px;
     padding: 5px;
 }
