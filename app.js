@@ -4,7 +4,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.querySelector("nav").style.position =`fixed`;
     document.querySelector("nav").style.top ='0px';
-    document.querySelector("nav").style.background ='black';
+    document.querySelector("nav").style.background ='red';
   
   } else {
 
