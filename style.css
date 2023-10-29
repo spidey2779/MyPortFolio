@@ -130,7 +130,7 @@ nav{
     font-family: 'Lobster', cursive;
 }
 .rightHome{
-    overflow: hidden;
+    overflow: auto;
 }
 .rightHome img{
     margin-top: 100px;
